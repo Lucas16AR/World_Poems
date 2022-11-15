@@ -1,0 +1,8 @@
+Welcome {[user.name]} your {[poem.title]} has received a mark.
+{[user_mark.name]} put a mark on your {[poem.title]}.
+
+Also, if you want, you can:
+                            *Upload your poems
+                            *Delete your poems
+                            *Find your poems
+Thanks for using our system.

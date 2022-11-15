@@ -1,0 +1,153 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 589px;
+}
+
+.u-section-1 .u-group-1 {
+  width: 800px;
+  min-height: 525px;
+  height: auto;
+  margin: 32px auto;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 29px 30px;
+}
+
+.u-section-1 .u-shape-1 {
+  width: 559px;
+  height: 48px;
+  margin: 24px 17px 0 auto;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 700;
+  margin: -38px auto 0 29px;
+}
+
+.u-section-1 .u-shape-2 {
+  width: 559px;
+  height: 48px;
+  margin: 38px 23px 0 auto;
+}
+
+.u-section-1 .u-text-2 {
+  font-weight: 700;
+  margin: -38px auto 0 33px;
+}
+
+.u-section-1 .u-shape-3 {
+  width: 559px;
+  height: 48px;
+  margin: 38px 17px 0 auto;
+}
+
+.u-section-1 .u-text-3 {
+  font-weight: 700;
+  margin: -38px auto 0 45px;
+}
+
+.u-section-1 .u-shape-4 {
+  width: 559px;
+  height: 48px;
+  margin: 38px 17px 0 auto;
+}
+
+.u-section-1 .u-text-4 {
+  font-weight: 700;
+  margin: -38px auto 0 45px;
+}
+
+.u-section-1 .u-shape-5 {
+  width: 559px;
+  height: 48px;
+  margin: 38px 17px 0 auto;
+}
+
+.u-section-1 .u-text-5 {
+  font-weight: 700;
+  margin: -38px auto 0 15px;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: linear-gradient(#db545a, #a35559);
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  margin: 39px auto 0;
+  padding: 6px 20px 7px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-group-1 {
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-group-1 {
+    width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-group-1 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    width: 520px;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-shape-2 {
+    width: 520px;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-shape-3 {
+    width: 520px;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-shape-4 {
+    width: 520px;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-shape-5 {
+    width: 520px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-group-1 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    width: 320px;
+  }
+
+  .u-section-1 .u-shape-2 {
+    width: 320px;
+  }
+
+  .u-section-1 .u-shape-3 {
+    width: 320px;
+  }
+
+  .u-section-1 .u-shape-4 {
+    width: 320px;
+  }
+
+  .u-section-1 .u-shape-5 {
+    width: 320px;
+  }
+}

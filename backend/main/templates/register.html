@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <meta charset="UTF-8">
+  </head>
+  <style>
+      .main{
+        border:1px solid rgb(71, 70, 70);
+        padding:40px;
+        background-color:rgb(192, 206, 131);
+        margin:10px;
+
+      }
+      body{
+        background-color: rgb(80, 97, 199);
+      }
+      .services{
+        background-color:#dd9c4b;
+        box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.75);
+        padding:40px;
+        border:5px solid rgb(0, 0, 0);
+        width:250px;
+      }
+      h1{
+        font-weight: bold;
+        font-size:30px;
+        color:#000000;
+      }
+
+      .button {
+        background-color:#3680f2;
+      	border-radius:2px;
+      	border:1px solid black;
+      	display:inline-block;
+      	color:#d43c3c;
+      	font-size:13px;
+      	padding:6px 24px;
+      	text-decoration:none;
+        margin-right:3px;
+
+      }
+
+  </style>
+  <body>
+  <br/>
+  <div class="main">
+    <h1>Bienvenido {{User.name}} {{User.email}}! </h1>
+    <p>Gracias por registrarse en nuestro sistema.</p>
+    <div class="services">
+      <p>Con nuestro servicio podras:</p>
+        <ul>
+             <li><a>Cargar tus poemas</a></li>
+             <li><a>Eliminar poemas</a></li>
+             <li><a>Buscar tus poemas o de otros autores</a></li>
+        </ul>
+    </div>
+
+  <br/>
+</div>
+
+</body>
+</html>
