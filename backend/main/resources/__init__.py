@@ -1,8 +1,6 @@
-from .marks import Mark as MarkResource
-from .marks import Marks as MarksResource
-
-from .poems import Poem as PoemResource
-from .poems import Poems as PoemsResource
-
-from .users import User as UserResource
-from .users import Users as UsersResource
+from .poem import Poem as PoemResource
+from .poem import Poems as PoemsResource
+from .qualification import Qualifications as QualificationsResource
+from .qualification import Qualification as QualificationResource
+from .user import User as UserResource
+from .user import Users as UsersResource

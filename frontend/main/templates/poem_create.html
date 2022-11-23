@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">  
+    <section class = "section">    
+        <form method="POST" action="/poem/create">
+            <div class="form-group">
+                <label for="texto">Titulo</label>
+                <input type="text" name="title" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="area">Cuerpo</label>
+                <textarea name="body" rows="10" cols="40"  class="form-control" id="area"></textarea>
+            </div>
+            <div class="container justify-content-center mt-3">
+                <div class="row">
+                    <input type="submit"  class="btn btn-primary" value="Crear">
+    </section>
+            </div>
+        </div>
+    </form>
+</div>
+
+{% endblock %}

@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+        <div class="container">
+          <fieldset disabled>
+            <div class="row justify-content-center">
+              <div class="form-group col-md-4">
+                <label for="name">Nombre</label>
+                <input type="text" class="form-control" placeholder="User Name">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" placeholder="User@mail.com">
+              </div>
+            </div>
+            <div class="row justify-content-center mt-5">
+              <div class="from-group col-md-4">
+                <label for="poems">Tus Poemas</label>
+                <input type="number" class="form-control" placeholder="Number Poems">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="qualifications">Calificaciones</label>
+                <input type="number" class="form-control" placeholder="Number Qualifications">
+              </div>
+            </div>
+          </fieldset>
+        </div>
+
+        <div class="container">
+          <div class="row mt-3 justify-content-center">
+            <div class="col-sm-3 mt-3">
+                <a class="btn btn-warning" href="{{url_for('poems.my_poems')}}">Mis Poemas</a>
+              <a class="btn btn-success" href="{{url_for('poems.create_poem')}}">Crear</a>
+              <a class="btn btn-primary" href="{{url_for('users.modify_user')}}">Modificar</a>
+            </div>
+          </div>
+        </div>
+
+{% endblock %}

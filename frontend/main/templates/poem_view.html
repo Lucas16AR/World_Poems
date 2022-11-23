@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<figure class="text-center">
+    <blockquote class="blockquote">
+      <p>{{poem.body}}</p>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+      Autor<cite title="Poema de Autor">{{poem.author.name}}</cite>
+    </figcaption>
+  </figure>
+  {% if request.cookies.get('access_token') %}
+  <div class="container">
+    <div class="row mt-3 justify-content-center">
+      <div class="col-sm-3 mt-3">
+        <a class="btn btn-primary" href="{{url_for('poems.modify_poem', id=poem.id)}}">Modificar</a>
+        <a class="btn btn-danger" href="{{url_for('poems.delete_poem', id=poem.id)}}">Borrar</a>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+{% endblock %}

@@ -1,3 +1,3 @@
-from .marks import Mark as MarkModel
-from .poems import Poem as PoemModel
-from .users import User as UserModel
+from .poem import Poem as PoemModel
+from .qualification import Qualification as QualificationModel
+from .user import User as UserModel

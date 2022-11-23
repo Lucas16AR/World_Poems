@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+        <div class="container mt-5">
+            <div class="row d-flex justify-content-center">
+              <div class="form-group col-md-4">
+                <label for="name">Nombre</label>
+                <input type="text" class="form-control disabled" placeholder="">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="newName">Nuevo Nombre</label>
+                <input type="text" class="form-control" placeholder="Nuevo Nombre de Usuario">
+              </div>
+            </div>
+            <div class="row justify-content-center mt-5">
+              <div class="from-group col-md-4">
+                <label for="password">Contraseña</label>
+                <input type="password" class="form-control disabled" placeholder="Contraseña">
+              </div>
+              <div class="form-group col-md-4">
+               <label for="newPassword">Nueva Contraseña</label>
+               <input type="password" class="form-control" placeholder="Nueva Contraseña">
+              </div>
+            </div>
+            <div class="row mt-5 justify-content-center">
+                <div class="d-grid col-sm-4">
+                    <a class="btn btn-primary" href="{{url_for('users.user_profile')}}">Guardar</a>
+                </div>
+            </div>
+        </div>
+
+{% endblock %}
