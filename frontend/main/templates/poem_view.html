@@ -3,11 +3,11 @@
 {% block content %}
 
 <figure class="text-center">
-    <blockquote class="blockquote">
+    <blockquote class="blockquote cardbloq1">
       <p>{{poem.body}}</p>
     </blockquote>
-    <figcaption class="blockquote-footer">
-      Autor<cite title="Poema de Autor">{{poem.author.name}}</cite>
+    <figcaption class="blockquote cardbloq2">
+      Autor <cite title="Poema de Autor">{{poem.author.name}}</cite>
     </figcaption>
   </figure>
   {% if request.cookies.get('access_token') %}

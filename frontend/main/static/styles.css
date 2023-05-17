@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(119, 226, 98);
+    background-color: rgb(218, 150, 101);
 }
 
 title {
@@ -20,4 +20,21 @@ header {
     margin: 5px;
     float: center;
     clear: both;
+}
+.cardbloq1 {
+    border: 1px solid black!important;
+    background-color: rgb(220, 238, 254);
+    padding: 20px;
+}
+
+.cardbloq2 {
+    border: 1px solid rgb(130, 130, 130)!important;
+    background-color: rgb(129, 159, 185);
+    padding: 10px;
+}
+
+.cardbloq3 {
+    border: 1px solid rgb(130, 130, 130)!important;
+    background-color: rgb(129, 159, 185);
+    padding: 10px;
 }
